@@ -111,20 +111,8 @@ echo ${USER}
 echo ${SUDO_USER}
 echo ${TESTIN}
 read -p "Enter username for installation DreamFactory:" CURRENT_USER
-# wget -O DFScript.sh https://raw.githubusercontent.com/dreamfactorysoftware/df-genie/vadimt-updated-script-ubuntu/DreamFactory_Ubuntu.sh?token=AixQO6LbWDdAqtrf7-umy2sXDOnYB8JRks5b-GVnwA%3D%3D
-# sudo chmod +x DFScript.sh
-# sudo ./DFScript.sh --with-mysql
-#Prerequisites and PHP 7.2 install
-# sudo apt-get -y install zip unzip
-# sudo apt-get -y install software-properties-common python-software-properties
-# sudo add-apt-repository -y ppa:ondrej/php
-# sudo apt-get -y update
-# sudo apt-get -y install php7.2 php7.2-cli php7.2-common
-# sudo apt-get -y install php7.2-curl php7.2-gd php7.2-json php7.2-mbstring php7.2-intl php7.2-mysql php7.2-xml php7.2-zip
-# php -v
-#Composer and Laravel install
-# curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 HERE
 #End of script. Tell them where to run vagrant up
 echo -e "${GN}\nGo to${NC} ${MG}\n/Users/${CURRENT_USER}/VMBoxes/${NAME}${NC} ${GN}\nto SSH into your VM.${NC}" 
 fi
+
